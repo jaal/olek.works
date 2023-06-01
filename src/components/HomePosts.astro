@@ -1,0 +1,35 @@
+---
+import NoteListItem from './NoteListItem.astro';
+import OutlineHeading from './OutlineHeading.astro';
+import Section from './Section.astro';
+
+const { allPosts } = Astro.props;
+
+const recentNotes = allPosts.slice(0, 8);
+---
+
+<style>
+  ul {
+    padding: 0;
+  }
+</style>
+
+<div class="">
+  <OutlineHeading>Recent Notes</OutlineHeading>
+  <Section>
+    <ul class="">
+      {
+        recentNotes.map((note) => (
+          <NoteListItem
+            url={note.url}
+            slug={note.frontmatter.slug}
+            title={note.frontmatter.title}
+            added={note.frontmatter.added}
+            tags={note.frontmatter.tags}
+            excerpt={note.frontmatter.excerpt}
+          />
+        ))
+      }
+    </ul>
+  </Section>
+</div>
