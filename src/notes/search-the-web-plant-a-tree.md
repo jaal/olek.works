@@ -1,5 +1,5 @@
 ---
-title: "[🇬🇧/🇺🇸] Search the web, plant a tree"
+title: "Search the web, plant a tree"
 slug: search-the-web-plant-a-tree
 added: 2022-09-24 07:06
 updated: 2022-09-24 07:06

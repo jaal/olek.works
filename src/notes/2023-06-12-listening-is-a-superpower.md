@@ -1,6 +1,6 @@
 ---
-title: "[🇬🇧/🇺🇸] Listening is a superpower"
-slug: search-the-web-plant-a-tree
+title: "Listening is a superpower"
+slug: 2023-06-12-listening-is-a-superpower
 added: 2023-06-12 16:43
 updated: 2023-06-12 16:43
 tags: [books, en]

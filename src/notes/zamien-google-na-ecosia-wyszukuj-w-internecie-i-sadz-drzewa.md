@@ -1,5 +1,5 @@
 ---
-title: "[🇵🇱] Zamień Google na Ecosia, wyszukuj w Internecie i sadź drzewa"
+title: "Zamień Google na Ecosia, wyszukuj w Internecie i sadź drzewa"
 slug: zamien-google-na-ecosia-wyszukuj-w-internecie-i-sadz-drzewa
 added: 2022-09-25 07:06
 updated: 2022-09-25 07:06
