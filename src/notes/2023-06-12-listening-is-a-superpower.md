@@ -7,7 +7,7 @@ tags: [books, en]
 excerpt: Would my life be easier when I can in fact listen?
 note: publish
 ---
-![Listening is a superpower](./2023-06-12-listening-is-a-superpower.png)
+![Listening is a superpower](./images/2023-06-12-listening-is-a-superpower.png)
 
 # Listening is a superpower.
 > “Listening well is a superpower. When listening to someone you love, keep asking them ‘Is there more?’, until there is no more.“ - Kelly, Kevin. *Excellent Advice for Living: Wisdom I Wish I'd Known Earlier*. Viking, 2023.
