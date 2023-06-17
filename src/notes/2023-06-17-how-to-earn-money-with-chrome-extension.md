@@ -7,7 +7,7 @@ tags: [extensions, en]
 excerpt: There are several ways to monetize the extension.
 note: publish
 ---
-![How to earn money with Chrome Extension](/images/2023-06-17-how-to-earn-money-with-chrome-extension.png)
+![How to earn money with Chrome Extension](/images/2023-06-17-how-to-earn-money-with-chrome-extension-1.png)
 # How to earn money with Chrome Extension
 There are several ways to monetize the extension.This is not a complete list. If you know of any other type of possible revenue stream for Chrome extensions and you want to share, feel free to drop me a line.
 
@@ -19,6 +19,7 @@ Some of them claim showing ads is their revenue, and that's okay.
 Others violate the rules, because they have one purpose, and use the mechanism of the extension to push unrelated content - ads, and they do that under the black hat. More examples can be found in [this article](https://www.zdnet.com/article/chrome-extension-with-millions-of-users-is-now-serving-popup-ads/).
 
 There are examples which partially belong to this category. [Tero](https://www.jointero.org) shows the ads on the browser's Start Page and they commits 80% of its revenue to climate action, such as planting trees.
+![Tero](/images/2023-06-17-how-to-earn-money-with-chrome-extension-2.png)
 
 ## Showing some ads (called acceptable ads)
 [Ablock extension](https://getadblock.com/) claims it shows acceptable ads. 
@@ -44,6 +45,7 @@ If you want to find out more about selling the data, I recommend [this article](
 One product in the company's portfolio may be popular, widely needed and free. This product can cross-promote a paid product.
 
 [Adblock](https://getadblock.com/en/) as a feature blocking ads, is free(ish), and it promotes premium product - [AdBlock VPN](https://vpn.getadblock.com/).
+![AdBlock](/images/2023-06-17-how-to-earn-money-with-chrome-extension-4.png)
 
 ## Using affiliate network
 If the extension has anything to do with e-commerce, affiliate links may be the solution.
@@ -73,7 +75,7 @@ Some extension creators do it without any reliable and predictable stream of rev
 
 ## Having Premium version
 Some extensions offer something extra that comes with premium version.
-
+![Momentum](/images/2023-06-17-how-to-earn-money-with-chrome-extension-3.png)
 [Momentum](https://momentumdash.com) is the extension which turns a standard browser's Start Page to beautiful and organised one, e.g.,
 
 1. shows motivating quotes and wallpapers
