@@ -7,11 +7,11 @@ const { page, HeaderComponent } = Astro.props;
   <HeaderComponent />}
 
   {page === 'note' && (<h2 class="header">
-    I write about what matters to me
+    <a href="/"> My name is Olek. I write about what matters to me.</a>
   </h2>)}
 
   {page === 'page' && (<h2 class="header">
-    <a href="/"> My name is Olek</a>
+    <a href="/"> My name is Olek. I write about what matters to me.</a>
   </h2>)}
 </section>
 
