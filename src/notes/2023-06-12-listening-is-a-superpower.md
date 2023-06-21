@@ -57,4 +57,4 @@ How easier is it when I just focus on listening? Enormously easier.
 # What can I do to listen well?
 What helps me to bring my focus back to listening? I keep asking myself the question, “where am I right now?”. The correct answer is “right here, right now”. When I'm not “right here, right now”, I gently, without any feelings, push myself to be present, by saying to myself “That's an interesting thought I had, let's go back to the presence”.
 
-Written in [Difree](https://www.getdifree.com/) | Graphics thanks to [#dalle](https://labs.openai.com/s/yRMNPejWdHpdw2wW21NCPsew)
+Written in [Difree](https://www.getdifree.com/) | Graphics thanks to [#dalle](https://labs.openai.com/s/r2mSbSMf9hDyzadX7AfKzpk3)
