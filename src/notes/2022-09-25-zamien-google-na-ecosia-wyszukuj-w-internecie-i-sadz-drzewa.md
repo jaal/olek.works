@@ -1,6 +1,6 @@
 ---
 title: "Zamień Google na Ecosia, wyszukuj w Internecie i sadź drzewa"
-slug: zamien-google-na-ecosia-wyszukuj-w-internecie-i-sadz-drzewa
+slug: 2022-09-25-zamien-google-na-ecosia-wyszukuj-w-internecie-i-sadz-drzewa
 added: 2022-09-25 07:06
 updated: 2022-09-25 07:06
 tags: [eco, carbon, pl]
@@ -8,7 +8,7 @@ excerpt: Zasadziłem ponad 500 drzew korzystając z wyszukiawarki, tak jak zwykl
 note: publish
 ---
 
-![Osoba sadząca drzewo](https://pinboard-uploads-production.operacdn.com/images/4c2e02ac-06cd-4760-9fab-7330b29a61e6/3cc22789-b492-465e-a9b3-05716621b0d3/b0565e80-4a61-420b-86d4-b57d67b711a8.jpeg)
+![Osoba sadząca drzewo](/images/2022-09-25-plant-a-tree.png)
 
 > Search the web, plant a tree
 > The Carbon Almanac is teaming up with Ecosia to make your online searching more powerful. Visit [www.thecarbonalmanac.org/search](http://www.thecarbonalmanac.org/search)
@@ -59,4 +59,4 @@ PS Gdybyś potrzebowała / potrzebował pomocy z ustawieniem Ecosia na telefonie
 \#factsconnectionaction #thecarbonalmanac #itsnottoolate
 
 
-Napisane w [Difree](https://www.getdifree.com/)
+Written in [Difree](https://www.getdifree.com/) | Graphics thanks to [#dalle](https://labs.openai.com/s/vGL5qBOaxh86wdGGY4BY4fFn)
