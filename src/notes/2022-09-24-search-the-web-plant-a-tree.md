@@ -1,8 +1,8 @@
 ---
 title: "Search the web, plant a tree"
-slug: 2022-09-24-search-the-web-plant-a-tree
-added: 2022-09-24 07:06
-updated: 2022-09-24 07:06
+slug: 2022-11-17-search-the-web-plant-a-tree
+added: 2022-11-17 07:06
+updated: 2022-11-17 07:06
 tags: [eco, carbon, en]
 excerpt: Over 500 trees planted, just by searching the web.
 note: publish
