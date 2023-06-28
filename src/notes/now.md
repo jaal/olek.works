@@ -11,7 +11,8 @@ note: publish
 # Now
 
 What I'm up to right now. Projects, jobs, life stuff.
-_Last updated 2022-10-25 12:37_
+
+_Last updated 2023-06-27 22:37_
 
 🌏  Where am I based?
 
@@ -25,8 +26,9 @@ Living in Wrocław, Poland
 1. And bread, too: https://chlebowe.love
 
 📚 What am I reading?
-1. 'The Daily Stoic: 366 Meditations on Wisdom, Perseverance, and the Art of Living' by Ryan Holiday (all year long)
-1. 'Fairy Tale' by Stephen King
-1. 'Radical Candor: Fully Revised & Updated Edition: Be a Kick-Ass Boss Without Losing Your Humanity' by Kim Scott
+1. The Song of Significance: A New Manifesto for Teams - Godin, Seth. Portfolio, 2023.
+1. Linchpin: Are You Indispensable? - Godin, Seth. Portfolio, 2011.
+1. Silo #1 - Howey, Hugh. Broad Reach Publishing. 2012
+1. Lessons in Chemistry - Garmus, Bonnie. Doubleday Books. 2022
 
 Written in [Difree](https://www.getdifree.com/) | Graphics thanks to [#dalle](https://labs.openai.com/s/Es9SdY1UXchlvFwPvBZKy05T)
