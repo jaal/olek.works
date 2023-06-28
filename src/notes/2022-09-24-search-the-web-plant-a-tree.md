@@ -1,6 +1,6 @@
 ---
 title: "Search the web, plant a tree"
-slug: 2022-11-17-search-the-web-plant-a-tree
+slug: ecosia
 added: 2022-11-17 07:06
 updated: 2022-11-17 07:06
 tags: [eco, carbon, en]
@@ -9,7 +9,7 @@ note: publish
 ---
 
 ![A person planting the tree](/images/2022-09-25-plant-a-tree.png)
-
+# Search the web, plant a tree
 > Search the web, plant a tree
 > The Carbon Almanac is teaming up with Ecosia to make your online searching more powerful. Visit [www.thecarbonalmanac.org/search](http://www.thecarbonalmanac.org/search)
 > to install a simple extension that plants a tree every time you do some web searches. It’s free. Just as fast and even easier than Google, but it makes a difference, every day. 143,000,000 trees planted as of 2021.

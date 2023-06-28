@@ -1,6 +1,6 @@
 ---
 title: "Improve your mileage by ~3.3 percent and reduce CO2 emissions"
-slug: 2022-12-12-improve-your-mileage
+slug: iym
 added: 2022-12-12 22:38
 updated: 2022-12-12 22:38
 tags: [eco, carbon, en]
@@ -8,8 +8,9 @@ excerpt: According to the research, correctly inflated tires in a car can improv
 note: publish
 ---
 ![The image of a person inflating the tire](/images/2022-12-12.png)
+# Improve your mileage by ~3.3 percent and reduce CO2 emissions
 
-# Hi,
+Hi,
 1. I am reading the book [The Carbon Almanac](https://thecarbonalmanac.org) by Seth Godin and J. Thorn.
 2. The book collects facts about the climate catastrophe.
 3. What's more, it gives the real and commonly accessable actions one can take to make the difference, instead of falling into catastrophism and apathy.

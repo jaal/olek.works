@@ -1,6 +1,6 @@
 ---
 title: "Zamień Google na Ecosia, wyszukuj w Internecie i sadź drzewa"
-slug: 2022-09-25-zamien-google-na-ecosia-wyszukuj-w-internecie-i-sadz-drzewa
+slug: zgne
 added: 2022-09-25 07:06
 updated: 2022-09-25 07:06
 tags: [eco, carbon, pl]
@@ -9,7 +9,7 @@ note: publish
 ---
 
 ![Osoba sadząca drzewo](/images/2022-09-25-plant-a-tree.png)
-
+# Zamień Google na Ecosia, wyszukuj w Internecie i sadź drzewa
 > Search the web, plant a tree
 > The Carbon Almanac is teaming up with Ecosia to make your online searching more powerful. Visit [www.thecarbonalmanac.org/search](http://www.thecarbonalmanac.org/search)
 > to install a simple extension that plants a tree every time you do some web searches. It’s free. Just as fast and even easier than Google, but it makes a difference, every day. 143,000,000 trees planted as of 2021.

@@ -1,6 +1,6 @@
 ---
 title: "Why did I start working on my own app?"
-slug: 2023-02-07-why-my-own-app
+slug: moa
 added: 2023-02-07 20:23
 updated: 2023-02-07 20:23
 tags: [en, sideproject, difree]
@@ -8,7 +8,7 @@ excerpt: I have my side project. Basically, it's a distraction-free editor worki
 note: publish
 ---
 ![An empty document](/images/2023-02-07.png)
-
+# Why did I start working on my own app?
 Hey,
 
 Okay, first things first. I have my side project., it’s a distraction-free editor working as a browser extension, called [Difree](https://www.getdifree.com/).

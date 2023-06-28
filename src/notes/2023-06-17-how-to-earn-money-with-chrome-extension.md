@@ -1,6 +1,6 @@
 ---
 title: "How to earn money with Chrome Extension"
-slug: 2023-06-17-how-to-earn-money-with-chrome-extension
+slug: emwc
 added: 2023-06-17 11:57
 updated: 2023-06-17 11:57
 tags: [extensions, en]

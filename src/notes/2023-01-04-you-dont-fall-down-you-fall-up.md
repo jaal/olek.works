@@ -1,6 +1,6 @@
 ---
 title: "You don’t fall down; you fall up"
-slug: 2023-01-04-you-dont-fall-down-you-fall-up
+slug: fdfu
 added: 2023-01-04 20:12
 updated: 2023-01-04 20:12
 tags: [books, en]
@@ -8,7 +8,7 @@ excerpt: According to the research, correctly inflated tires in a car can improv
 note: publish
 ---
 ![A person falling down](/images/2023-01-04.png)
-
+# You don’t fall down; you fall up
 Hey,
 
 I've been reading '[Radical Candor](https://www.radicalcandor.com)' by Kim Scott. It's a book about the management philosophy, where the key is to give and receive candid feedback, without being a jerk with no humanity.
