@@ -121,7 +121,7 @@ const tweetTextEncoded = encodeURIComponent(
       </div>
     </Section>
     <Section>
-      <p class="rainbow-links"><b>Thanks for reading!</b> If you'd like to share your thoughts you can <a href={`https://olek.works/${post.frontmatter.slug}#comments`}>leave a comment</a>, <a href={`mailto:hi@olek.works?subject=${titleEncoded}`}>, or send me an email</a>.</p>
+      <p class="rainbow-links"><b>Thanks for reading!</b> If you'd like to share your thoughts <a href={`mailto:hi@olek.works?subject=${titleEncoded}`}>send me an email</a>.</p>
     </Section>
   </article>
   <!-- {references.length > 0 && (
@@ -136,6 +136,7 @@ const tweetTextEncoded = encodeURIComponent(
     </ul>
   </section>
   )} -->
+ <!-- 
   <section class="comments">
     <OutlineHeading id="comments">Comments</OutlineHeading>
     <Section>
@@ -147,8 +148,9 @@ const tweetTextEncoded = encodeURIComponent(
         async
         defer
         src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"
-      ></script>
+      ></script> -->
       <!-- You can specify a per page discussion id on the next line, if your URLs might change. -->
+      <!-- 
       <div class="talkyard-comments" style="margin-top: 45px;">
         <noscript>Please enable Javascript to view comments.</noscript>
         <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">
@@ -157,5 +159,6 @@ const tweetTextEncoded = encodeURIComponent(
       </div>
     </Section>
   </section>
+-->
 </Layout>
 
