@@ -17,7 +17,7 @@ const postsWithContent = await Promise.all(
 
     html += `
       <hr />
-      <p>Thanks for reading this post via RSS! Let me know your thoughts by leaving a comment on the <a href="https://olek.works/${post.frontmatter.slug}">original post</a>, or send <a href="mailto:hi@olek.works?subject=${titleEncoded}">me an email</a>.</p>
+      <p>Thanks for reading this post via RSS! Let me know your thoughts by sending <a href="mailto:hi@olek.works?subject=${titleEncoded}">me an email</a>.</p>
       `;
 
     return {
