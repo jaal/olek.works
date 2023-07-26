@@ -3,7 +3,7 @@ title: "Improve your mileage by ~3.3 percent and reduce CO2 emissions"
 slug: iym
 added: 2022-12-12 22:38
 updated: 2022-12-12 22:38
-tags: [eco, carbon, en]
+tags: [eco, carbon, en, life experience]
 excerpt: According to the research, correctly inflated tires in a car can improve the mileage by around 3.3 percent.
 note: publish
 ---

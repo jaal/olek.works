@@ -3,7 +3,7 @@ title: "Listening is a superpower"
 slug: sp
 added: 2023-06-12 16:43
 updated: 2023-06-12 16:43
-tags: [books, en]
+tags: [books, en, life experience, reflexion]
 excerpt: Would my life be easier when I can in fact listen?
 note: publish
 ---

@@ -3,7 +3,7 @@ title: "When everyday commodity meets convenience meets good cause"
 slug: wcm
 added: 2023-03-11 21:12
 updated: 2023-03-11 21:12
-tags: [en]
+tags: [en, life experience, reflexion]
 excerpt: When everyday commodity meets convenience, meets good cause, great things can happen. The "everyday commodity - convenience - good casue" relation is like a equilateral triangle. Each part is important and cannot be omitted. 
 note: publish
 ---

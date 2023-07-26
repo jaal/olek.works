@@ -3,7 +3,7 @@ title: "Why did I start working on my own app?"
 slug: moa
 added: 2023-02-07 20:23
 updated: 2023-02-07 20:23
-tags: [en, sideproject, difree]
+tags: [en, side project, difree, Chrome extension]
 excerpt: I have my side project. Basically, it's a distraction-free editor working as a browser extension, called Difree. To be honest, there are hundreds of different text editors available on the market. Why did I bother to create yet another text editor?
 note: publish
 ---

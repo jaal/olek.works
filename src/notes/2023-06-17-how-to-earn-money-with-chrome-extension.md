@@ -3,7 +3,7 @@ title: "How to earn money with Chrome Extension"
 slug: emwc
 added: 2023-06-17 11:57
 updated: 2023-06-17 11:57
-tags: [extensions, en]
+tags: [Chrome extension, en]
 excerpt: There are several ways to monetize the extension.
 note: publish
 ---
