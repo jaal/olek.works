@@ -2,7 +2,7 @@
 title: "Now"
 slug: now
 added: 2022-10-25 12:37
-updated: 2022-10-25 12:37
+updated: 2023-08-11 10:26
 tags: [now, en]
 excerpt: What I'm up to right now. Projects, jobs, life stuff.
 note: publish
@@ -11,8 +11,6 @@ note: publish
 # Now
 
 What I'm up to right now. Projects, jobs, life stuff.
-
-_Last updated 2023-06-27 22:37_
 
 🌏  Where am I based?
 
@@ -26,9 +24,13 @@ Living in Wrocław, Poland
 1. And bread, too: https://chlebowe.love
 
 📚 What am I reading?
-1. The Song of Significance: A New Manifesto for Teams - Godin, Seth. Portfolio, 2023.
-1. Linchpin: Are You Indispensable? - Godin, Seth. Portfolio, 2011.
-1. Silo #1 - Howey, Hugh. Broad Reach Publishing. 2012
-1. Lessons in Chemistry - Garmus, Bonnie. Doubleday Books. 2022
+1. Silo #2 - Hugh Howey
+1. The Practice - Seth Godin
+1. Wrong Place Wrong Time - Gillian McAllister
+1. Full catastrophe living - Jon Kabat-Zinn
+1. ~~The Song of Significance: A New Manifesto for Teams - Godin, Seth. Portfolio, 2023.~~
+1. ~~Linchpin: Are You Indispensable? - Godin, Seth. Portfolio, 2011.~~
+1. ~~Silo #1 - Howey, Hugh. Broad Reach Publishing. 2012~~
+1. ~~Lessons in Chemistry - Garmus, Bonnie. Doubleday Books. 2022~~
 
 Written in [Difree](https://www.getdifree.com/) | Graphics thanks to [#dalle](https://labs.openai.com/s/Es9SdY1UXchlvFwPvBZKy05T)
