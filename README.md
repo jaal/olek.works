@@ -1,4 +1,4 @@
-# The code for olekwrites.xyz - built on [Astro](https://astro.build)
+# The code for olekwrites.com - built on [Astro](https://astro.build)
 
 
 

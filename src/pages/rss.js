@@ -10,14 +10,14 @@ const postsWithContent = await Promise.all(
 
     const titleEncoded = encodeURIComponent(`re: ${post.frontmatter.title}`);
     const tweetTextEncoded = encodeURIComponent(
-      `re: https://olekwrites.xyz/${post.frontmatter.slug}`
+      `re: https://olekwrites.com/${post.frontmatter.slug}`
     );
 
     let html = marked.parse(rawContent);
 
     html += `
       <hr />
-      <p>Thanks for reading this post via RSS! Let me know your thoughts by sending <a href="mailto:hi@olekwrites.xyz?subject=${titleEncoded}">me an email</a>.</p>
+      <p>Thanks for reading this post via RSS! Let me know your thoughts by sending <a href="mailto:hi@olekwrites.com?subject=${titleEncoded}">me an email</a>.</p>
       `;
 
     return {
@@ -52,7 +52,7 @@ export const get = () =>
         customData: categoryTags,
       };
     }),
-    customData: `<atom:link href="https://olekwrites.xyz/rss/" rel="self" type="application/rss+xml" />`,
+    customData: `<atom:link href="https://olekwrites.com/rss/" rel="self" type="application/rss+xml" />`,
     xmlns: {
       atom: 'http://www.w3.org/2005/Atom',
     },

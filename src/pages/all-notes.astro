@@ -8,7 +8,7 @@ import { postsAndTags } from '../data/posts';
 
 let title = `All Notes | My name is Olek`;
 let description = 'See all of my notes.';
-let permalink = 'https://olekwrites.xyz/all-notes/';
+let permalink = 'https://olekwrites.com/all-notes/';
 
 let posts = await Astro.glob(`../notes/*.md`);
 const { allPosts, allTags } = await postsAndTags(posts);
