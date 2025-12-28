@@ -10,7 +10,14 @@
       "Bash(git add src/notes/2025-12-28-checkout-charity.md public/images/donate-now.png)",
       "Bash(git commit -m \"Add new blog post: Match My Donation or Stop Taking Credit\")",
       "Bash(git push origin master)",
-      "Bash(git add -A)"
+      "Bash(git add -A)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nRebrand from olek.works to olekwrites.xyz\n\n- Update domain throughout codebase \\(olek.works → olekwrites.xyz\\)\n- Update branding: header \"Olek works\" → \"Olek writes\"\n- Update footer copyright to OlekWrites.xyz\n- Remove side-projects section from homepage\n- Remove Mastodon reference from footer\n- Fix RSS feed: add XML stylesheet and proper validation\n- Update email references to hi@olekwrites.xyz\n- Update package name to olekwrites.xyz\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git add README.md astro.config.mjs package.json public/robots.txt src/components/BaseHead.astro src/components/Footer.astro src/notes/2025-08-23-stoic.md src/notes/now.md src/pages/[slug].astro src/pages/all-notes.astro src/pages/index.astro src/pages/rss.js src/pages/tag/[tag].astro)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nChange domain from olekwrites.xyz to olekwrites.com\n\n- Update domain throughout codebase \\(olekwrites.xyz → olekwrites.com\\)\n- Update email references to hi@olekwrites.com\n- Update package name to olekwrites.com\n- Update all permalinks and canonical URLs\n- Update RSS feed URLs\n- Update sitemap reference in robots.txt\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git add public/CNAME)",
+      "Bash(git commit -m \"Add CNAME file for olekwrites.com\")",
+      "Bash(ls -la dist/rss*)",
+      "Bash(git commit -m \"Fix RSS feed URL: remove trailing slash to match file generation\")"
     ]
   },
   "enableAllProjectMcpServers": true,
