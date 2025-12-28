@@ -22,7 +22,7 @@ Living in Wrocław, Poland
 
 1. I work in a software company, which develops browsers and I'm responsible for growth activities (e.g., how can encourage people to use the browser more, faster, better, easier)
 1. I have a side-project: Difree - a distraction-free writing app. I love to write, so I co-created a tool, that makes it easier and with fewer, or no distractions: https://www.getdifree.com/
-1. I have another side-project: A simple web app that gives you Stoic philosophy advice using AI. I built it with Claude (no coding needed!), proving that anyone can create cool stuff even without programming skills: https://olek.works/ask-stoic
+1. I have another side-project: A simple web app that gives you Stoic philosophy advice using AI. I built it with Claude (no coding needed!), proving that anyone can create cool stuff even without programming skills: https://olekwrites.xyz/ask-stoic
 1. Recently, I'm all in into plant-based cuisine, especially indian vegan cuisine.
 1. I used to bake pizza, like a lot!: https://domowa.pizza
 1. And bread, too: https://chlebowe.love

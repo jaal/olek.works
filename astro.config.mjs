@@ -8,7 +8,7 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
   integrations: [sitemap()],
-  site: 'https://olek.works',
+  site: 'https://olekwrites.xyz',
   trailingSlash: 'always',
   markdown: {
     shikiConfig: {

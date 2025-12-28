@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm run build)",
+      "Bash(npm run preview)",
+      "Bash(curl -s http://localhost:3000/rss)",
+      "Bash(curl -s http://localhost:3000/rss/)",
+      "Bash(curl -s https://raw.githubusercontent.com/genmon/aboutfeeds/main/tools/pretty-feed-v3.xsl -o /Users/opera_user/Projects/olek.works/public/pretty-feed-v3.xsl)",
+      "Bash(git add src/notes/2025-12-28-checkout-charity.md public/images/donate-now.png)",
+      "Bash(git commit -m \"Add new blog post: Match My Donation or Stop Taking Credit\")",
+      "Bash(git push origin master)",
+      "Bash(git add -A)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "figma-mcp"
+  ]
+}

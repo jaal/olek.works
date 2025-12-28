@@ -10,14 +10,14 @@ const postsWithContent = await Promise.all(
 
     const titleEncoded = encodeURIComponent(`re: ${post.frontmatter.title}`);
     const tweetTextEncoded = encodeURIComponent(
-      `re: https://olek.works/${post.frontmatter.slug}`
+      `re: https://olekwrites.xyz/${post.frontmatter.slug}`
     );
 
     let html = marked.parse(rawContent);
 
     html += `
       <hr />
-      <p>Thanks for reading this post via RSS! Let me know your thoughts by sending <a href="mailto:hi@olek.works?subject=${titleEncoded}">me an email</a>.</p>
+      <p>Thanks for reading this post via RSS! Let me know your thoughts by sending <a href="mailto:hi@olekwrites.xyz?subject=${titleEncoded}">me an email</a>.</p>
       `;
 
     return {
@@ -37,8 +37,9 @@ export const get = () =>
   rss({
     title: "My name is Olek. I write what matters to me.",
     description:
-      "Hi 👋🏼 I'm Olek. Here I write about what matters to me. I'm a co-founder of 2 kids 👨‍👩, married happily 💍, and 🍕 lover. My side-projects are: Difree a distraction-free writing app, and domowa.pizza a blog about home-made pizza.",
+      "Hi 👋🏼 I'm Olek. Here I write about what matters to me. I'm a co-founder of 2 kids 👨‍👩, married happily 💍, and 🍕 lover.",
     site: import.meta.env.SITE,
+    stylesheet: '/pretty-feed-v3.xsl',
     items: postsToRender.map((post, i) => {
       const categoryTags = post.frontmatter.tags
         .map((tag) => `<category><![CDATA[${tag}]]></category>`)
@@ -51,8 +52,8 @@ export const get = () =>
         customData: categoryTags,
       };
     }),
-    // customData: `<atom:link href="https://olek.works/rss/" rel="self" type="application/rss+xml" />`,
+    customData: `<atom:link href="https://olekwrites.xyz/rss/" rel="self" type="application/rss+xml" />`,
     xmlns: {
-      // atom: 'http://www.w3.org/2005/Atom',
+      atom: 'http://www.w3.org/2005/Atom',
     },
   });
