@@ -52,7 +52,7 @@ export const get = () =>
         customData: categoryTags,
       };
     }),
-    customData: `<atom:link href="https://olekwrites.com/rss/" rel="self" type="application/rss+xml" />`,
+    customData: `<atom:link href="https://olekwrites.com/rss" rel="self" type="application/rss+xml" />`,
     xmlns: {
       atom: 'http://www.w3.org/2005/Atom',
     },

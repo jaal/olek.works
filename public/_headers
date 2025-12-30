@@ -3,7 +3,7 @@
 /sw.js   # Gatsby's default service worker file path
   Cache-Control: no-cache
 
-/rss/
+/rss
   content-type: text/xml; charset=UTF-8
 
 # These are default recommended security headers, for Netlify
