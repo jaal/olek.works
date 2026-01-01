@@ -3,7 +3,7 @@ title: 'When Domain Renewal Costs 9x More Than Registration'
 slug: from-works-to-writes
 added: 2025-12-29 12:00
 updated: 2025-12-29 12:00
-tags: [en, domains, blogging, web, lessons, cost]
+tags: [writing, life-lessons]
 excerpt: Domain renewals can cost 9x more than registration. How an expensive .works renewal led me to switch to a cheaper .com alternative.
 note: publish
 ---

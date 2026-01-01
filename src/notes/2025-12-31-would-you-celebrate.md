@@ -3,7 +3,7 @@ title: "Would You Still Celebrate If It Wasn't a Day Off?"
 slug: would-you-celebrate
 added: 2025-12-31 12:00
 updated: 2025-12-31 12:00
-tags: [en, holidays, culture, philosophy, society, reflection]
+tags: [reflection, culture]
 excerpt: "Would you celebrate New Year's Eve if it wasn't a day off? The answer reveals what we truly value about holidays."
 note: publish
 ---

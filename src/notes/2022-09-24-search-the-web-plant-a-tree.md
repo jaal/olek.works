@@ -3,7 +3,7 @@ title: "Search the web, plant a tree"
 slug: ecosia
 added: 2022-11-17 07:06
 updated: 2022-11-17 07:06
-tags: [eco, carbon, en]
+tags: [environment]
 excerpt: Over 500 trees planted, just by searching the web.
 note: publish
 ---

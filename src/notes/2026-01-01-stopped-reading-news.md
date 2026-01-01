@@ -3,7 +3,7 @@ title: 'I Stopped Reading News. This Weekly Email Is Better.'
 slug: stopped-reading-news
 added: 2026-01-01 09:00
 updated: 2026-01-01 09:00
-tags: [en, news, wikipedia, information-diet, newsletter, curation]
+tags: [media]
 excerpt: "One email every Friday tells me more about what matters than endless news scrolling. Here's how Wikipedia editors became my curators."
 note: publish
 ---

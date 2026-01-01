@@ -3,7 +3,7 @@ title: 'Match My Donation or Stop Taking Credit'
 slug: checkout-charity
 added: 2025-12-28 12:00
 updated: 2025-12-28 12:00
-tags: [en, ethics, charity, business]
+tags: [ethics]
 excerpt: When companies ask you to donate at checkout, then take credit for supporting charity - who's really doing the donating?
 note: publish
 ---

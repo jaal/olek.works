@@ -3,7 +3,7 @@ title: 'I Wanted to Write, Not Publish'
 slug: writing-not-publishing
 added: 2025-12-30 12:00
 updated: 2025-12-30 12:00
-tags: [en, writing, blogging, automation, productivity, claude-code]
+tags: [writing, technology]
 excerpt: Github Pages gave me independence, but the publishing process stole my time. Here's how Claude Code helped me focus on writing again.
 note: publish
 ---

@@ -3,7 +3,7 @@ title: "Zamień Google na Ecosia, wyszukuj w Internecie i sadź drzewa"
 slug: zgne
 added: 2022-09-25 07:06
 updated: 2022-09-25 07:06
-tags: [eco, carbon, pl]
+tags: [environment]
 excerpt: Zasadziłem ponad 500 drzew korzystając z wyszukiawarki, tak jak zwykle korzystam.
 note: publish
 ---
