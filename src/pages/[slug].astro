@@ -81,6 +81,57 @@ const tweetTextEncoded = encodeURIComponent(
   }
 </style>
 
+<style is:global>
+  .lightbox-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    cursor: zoom-out;
+  }
+
+  .lightbox-overlay.active {
+    display: flex;
+  }
+
+  .lightbox-content {
+    max-width: 95%;
+    max-height: 95%;
+    object-fit: contain;
+  }
+
+  .lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-weight: bold;
+    z-index: 10000;
+    transition: opacity 0.2s;
+  }
+
+  .lightbox-close:hover {
+    opacity: 0.7;
+  }
+
+  .note-content a[href$='.png'] img,
+  .note-content a[href$='.jpg'] img,
+  .note-content a[href$='.jpeg'] img,
+  .note-content a[href$='.gif'] img {
+    cursor: zoom-in;
+  }
+</style>
+
 <BaseHead
   {title}
   {description}
@@ -162,3 +213,59 @@ const tweetTextEncoded = encodeURIComponent(
 -->
 </Layout>
 
+<!-- Lightbox overlay -->
+<div id="lightbox" class="lightbox-overlay">
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <img src="" alt="" class="lightbox-content" />
+</div>
+
+<script>
+  // Lightbox functionality
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = lightbox?.querySelector('.lightbox-content');
+  const closeBtn = lightbox?.querySelector('.lightbox-close');
+
+  // Find all image links in note content
+  const imageLinks = document.querySelectorAll('.note-content a[href$=".png"], .note-content a[href$=".jpg"], .note-content a[href$=".jpeg"], .note-content a[href$=".gif"]');
+
+  imageLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const imgSrc = link.getAttribute('href');
+      const imgAlt = link.querySelector('img')?.getAttribute('alt') || '';
+
+      if (lightboxImg) {
+        lightboxImg.src = imgSrc;
+        lightboxImg.alt = imgAlt;
+      }
+
+      if (lightbox) {
+        lightbox.classList.add('active');
+      }
+    });
+  });
+
+  // Close lightbox function
+  function closeLightbox() {
+    if (lightbox) {
+      lightbox.classList.remove('active');
+    }
+  }
+
+  // Close button click
+  closeBtn?.addEventListener('click', closeLightbox);
+
+  // Click on overlay (but not on image)
+  lightbox?.addEventListener('click', (e) => {
+    if (e.target === lightbox) {
+      closeLightbox();
+    }
+  });
+
+  // ESC key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && lightbox?.classList.contains('active')) {
+      closeLightbox();
+    }
+  });
+</script>

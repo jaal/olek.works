@@ -180,6 +180,16 @@ ol {
   margin-bottom: 1.2em;
 }
 
+ul {
+  padding-left: 2em;
+  list-style-type: disc;
+}
+
+ol {
+  padding-left: 2em;
+  list-style-type: decimal;
+}
+
 blockquote {
   background: #fdfdfd;
   border-left: 6px solid #ccc;
