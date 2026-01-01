@@ -71,6 +71,10 @@ The data might surprise you.
 
 ---
 
+**Discussion:** This post is being discussed on [Hacker News](https://news.ycombinator.com/item?id=46455675).
+
+---
+
 ## Further Reading
 
 If you're fascinated by how our minds deceive us, these books dive deep into cognitive biases:
