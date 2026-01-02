@@ -4,7 +4,11 @@
   Cache-Control: no-cache
 
 /rss
-  Content-Type: application/xml; charset=UTF-8
+  Content-Type: text/xml; charset=UTF-8
+  X-Content-Type-Options: nosniff
+
+/rss-beautiful.xsl
+  Content-Type: text/xsl; charset=UTF-8
   X-Content-Type-Options: nosniff
 
 # These are default recommended security headers, for Netlify
