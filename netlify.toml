@@ -5,7 +5,7 @@
 [[headers]]
   for = "/rss"
   [headers.values]
-    Content-Type = "application/xml; charset=UTF-8"
+    Content-Type = "text/xml; charset=UTF-8"
     Content-Disposition = "inline"
     X-Content-Type-Options = "nosniff"
 
