@@ -5,6 +5,7 @@
 
 /rss
   Content-Type: text/xml; charset=UTF-8
+  Content-Disposition: inline
   X-Content-Type-Options: nosniff
 
 /rss-beautiful.xsl
