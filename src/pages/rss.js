@@ -39,7 +39,7 @@ export const get = () =>
     description:
       "Hi 👋🏼 I'm Olek. Here I write about what matters to me. I'm a co-founder of 2 kids 👨‍👩, married happily 💍, and 🍕 lover.",
     site: import.meta.env.SITE,
-    stylesheet: '/pretty-feed-v3.xsl',
+    stylesheet: '/rss-beautiful.xsl',
     items: postsToRender.map((post, i) => {
       const categoryTags = post.frontmatter.tags
         .map((tag) => `<category><![CDATA[${tag}]]></category>`)
