@@ -1,8 +1,16 @@
 import rss from '@astrojs/rss';
 import * as marked from 'marked';
+import fs from 'fs';
+import path from 'path';
 
 const postImportResult = import.meta.globEager('../notes/**/*.md');
 const posts = Object.values(postImportResult);
+
+// Read and encode the XSL stylesheet as base64
+const xslPath = path.join(process.cwd(), 'public', 'rss-beautiful.xsl');
+const xslContent = fs.readFileSync(xslPath, 'utf-8');
+const xslBase64 = Buffer.from(xslContent).toString('base64');
+const stylesheetDataUrl = `data:text/xsl;base64,${xslBase64}`;
 
 const postsWithContent = await Promise.all(
   posts.map(async (post) => {
@@ -39,7 +47,7 @@ export const get = () =>
     description:
       "Hi 👋🏼 I'm Olek. Here I write about what matters to me. I'm a co-founder of 2 kids 👨‍👩, married happily 💍, and 🍕 lover.",
     site: import.meta.env.SITE,
-    stylesheet: '/rss-beautiful.xsl',
+    stylesheet: stylesheetDataUrl,
     items: postsToRender.map((post, i) => {
       const categoryTags = post.frontmatter.tags
         .map((tag) => `<category><![CDATA[${tag}]]></category>`)
