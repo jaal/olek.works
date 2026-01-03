@@ -18,7 +18,9 @@
       "Bash(git commit -m \"Add CNAME file for olekwrites.com\")",
       "Bash(ls -la dist/rss*)",
       "Bash(git commit -m \"Fix RSS feed URL: remove trailing slash to match file generation\")",
-      "Bash(git commit -m \"$\\(cat <<''EOF''\nMake RSS feed accessible at both /rss and /rss/\n\n- Add Netlify redirect from /rss/ to /rss\n- Update all RSS links to use /rss/ for consistency\n- Both URLs will now work seamlessly\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nMake RSS feed accessible at both /rss and /rss/\n\n- Add Netlify redirect from /rss/ to /rss\n- Update all RSS links to use /rss/ for consistency\n- Both URLs will now work seamlessly\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git merge blog/weekly-charts)",
+      "Bash(git commit -m \"Update settings before merge\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\")"
     ]
   },
   "enableAllProjectMcpServers": true,
