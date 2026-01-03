@@ -115,7 +115,9 @@
       "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd redirect to ensure both /feed and /feed/ work\n\n- Add Netlify redirect from /feed to /feed/\n- Ensures consistent URL handling for feed page\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
       "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd blog post: Charts Show the Story, You Prove It\n\n- New post about the power of data visualization\n- Includes weekly charts image and RSS stylesheet\n- Add blog instruction template file\n- Update local settings with command history\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
       "Bash(git add .claude/settings.local.json)",
-      "Bash(git commit -m \"Update local settings with latest command history\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\")"
+      "Bash(git commit -m \"Update local settings with latest command history\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\")",
+      "Bash(git pull origin master)",
+      "Bash(git commit -m \"Update settings with merge command history\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\")"
     ]
   },
   "enableAllProjectMcpServers": true,
