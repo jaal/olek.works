@@ -1,8 +1,8 @@
 ---
 title: 'Charts That Show the Story and Prove It'
 slug: charts-show-story-prove-it
-added: 2026-01-03 12:00
-updated: 2026-01-03 12:00
+added: 2026-01-04 00:00
+updated: 2026-01-04 00:00
 tags: [media, technology]
 excerpt: "Every Thursday, Datawrapper sends one chart that doesn't just claim something—it shows the story and backs it up. This changed how I think."
 note: publish
