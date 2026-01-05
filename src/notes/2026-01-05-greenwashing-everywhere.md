@@ -72,7 +72,7 @@ Real environmental responsibility requires systemic change, not just better mark
 
 ---
 
-**Have you noticed other examples of greenwashing?** I'd love to hear about them.
+**Have you noticed other examples of greenwashing?** I'd love to hear about them. Share your examples on [Hacker News](https://news.ycombinator.com/item?id=46498252).
 
 ---
 
