@@ -1,37 +1,19 @@
-name: Scheduled Build and Deploy
+name: Scheduled Build
 
 on:
   schedule:
-    # Run daily at 10:00 AM UTC
-    - cron: '0 10 * * *'
-  workflow_dispatch: # Allow manual trigger
+    # Run daily at 6:00 AM UTC (7:00 AM CET in winter, 8:00 AM CEST in summer)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:
-  build-and-deploy:
+  trigger-netlify-build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - name: Trigger Netlify Build
+        run: |
+          curl -X POST -d {} ${{ secrets.NETLIFY_BUILD_HOOK }}
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build site
-        run: npm run build
-
-      - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v2.0
-        with:
-          publish-dir: './dist'
-          production-deploy: true
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          deploy-message: "Scheduled deployment from GitHub Actions"
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      - name: Build Triggered
+        run: echo "Netlify build triggered successfully at $(date)"
