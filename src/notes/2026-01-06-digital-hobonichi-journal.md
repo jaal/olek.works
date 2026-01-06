@@ -1,8 +1,8 @@
 ---
 title: 'I Built a Digital Version of My Favorite 5-Year Journal'
 slug: digital-hobonichi-journal
-added: 2026-01-06 06:00
-updated: 2026-01-06 06:00
+added: 2026-01-06 00:00
+updated: 2026-01-06 00:00
 tags: [projects, technology, writing]
 excerpt: I love the Hobonichi 5-Year book but wanted it digital. Here's how I created a version for Notesnook that you can use too.
 note: publish
