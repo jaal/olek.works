@@ -1,8 +1,8 @@
 ---
 title: '2025: The Year Renewables Finally Beat Coal'
 slug: 2025-renewables-beat-coal
-added: 2026-01-09 06:00
-updated: 2026-01-09 06:00
+added: 2026-01-08 06:00
+updated: 2026-01-08 06:00
 tags: [environment, technology]
 excerpt: For the first time ever, wind and solar supplied more power globally than coal. Here's what changed and why it matters.
 note: publish
