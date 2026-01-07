@@ -1,5 +1,5 @@
 ---
-title: 'We've Entered the Era of Creators 2.0'
+title: "We've Entered the Era of Creators 2.0"
 slug: creators-2-0-ai-lowered-barrier
 added: 2026-01-07 06:00
 updated: 2026-01-07 06:00
