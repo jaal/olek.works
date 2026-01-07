@@ -7,14 +7,6 @@ export function postsAndTags(allPosts) {
 }
 
 function sortedPosts(allPosts) {
-  const now = new Date();
-
-  // Filter out posts with future dates (for scheduled publishing)
-  allPosts = allPosts.filter((post) => {
-    const postDate = new Date(post.frontmatter.added.replace(/-/g, '/'));
-    return postDate <= now;
-  });
-
   allPosts = allPosts.sort((a, b) => {
     return new Date(b.frontmatter.added) - new Date(a.frontmatter.added);
   });
