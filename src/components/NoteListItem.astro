@@ -6,6 +6,10 @@ const { slug, title, tags, added } = Astro.props;
 const addedSegments = added.split(' ')[0].split('-');
 const date =
   addedSegments[2] + '·' + addedSegments[1] + '·' + addedSegments[0].slice(2);
+
+function toISODate(dateStr) {
+  return dateStr.replace(' ', 'T') + ':00Z';
+}
 ---
 
 <style>
@@ -53,14 +57,16 @@ const date =
   }
 </style>
 
-<li>
-  <span class="date">{date}</span>
-  <a href={`/${slug}/`} class="title">{title}</a>
+<li class="h-entry">
+  <time class="date dt-published" datetime={toISODate(added)}>{date}</time>
+  <a href={`/${slug}/`} class="title p-name u-url">{title}</a>
   <ul>
     {
       tags.map((tag) => (
         <li class="tag">
-          <Tag {tag} small />
+          <span class="p-category">
+            <Tag {tag} small />
+          </span>
         </li>
       ))
     }

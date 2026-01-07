@@ -22,6 +22,11 @@ export function formatDate(date) {
   });
 }
 
+function toISODate(dateStr) {
+  // Convert "2026-01-07 06:00" to "2026-01-07T06:00:00Z"
+  return dateStr.replace(' ', 'T') + ':00Z';
+}
+
 const { slug } = Astro.params;
 const { post } = Astro.props;
 const {
@@ -141,17 +146,23 @@ const tweetTextEncoded = encodeURIComponent(
 />
 
 <Layout page="note" tags={allTags}>
-  <article>
-    <h1 class="title">{title}</h1>
+  <article class="h-entry">
+    <h1 class="title p-name">{title}</h1>
+    <a href={permalink} class="u-url" style="display: none;" aria-hidden="true">{permalink}</a>
     <div class="meta">
       <p>
-        <em class="meta-label">Added:</em>
-        {formatDate(added)}
+        <em class="meta-label">Added:</em>{' '}
+        <time class="dt-published" datetime={toISODate(added)}>
+          {formatDate(added)}
+        </time>
       </p>
       {
         updated !== added && (
           <p>
-            <em class="meta-label">Updated:</em> {formatDate(updated)}
+            <em class="meta-label">Updated:</em>{' '}
+            <time class="dt-updated" datetime={toISODate(updated)}>
+              {formatDate(updated)}
+            </time>
           </p>
         )
       }
@@ -160,14 +171,24 @@ const tweetTextEncoded = encodeURIComponent(
           <p>
             <em class="meta-label">Tags:</em>{' '}
             {tags.map((tag) => (
-              <Tag tag={tag} />
+              <span class="p-category">
+                <Tag tag={tag} />
+              </span>
             ))}
           </p>
         )
       }
+      <div class="p-author h-card" style="display: none;" aria-hidden="true">
+        <a class="p-name u-url" href="https://olekwrites.com">Olek</a>
+      </div>
+      {
+        excerpt && (
+          <p class="p-summary" style="display: none;" aria-hidden="true">{excerpt}</p>
+        )
+      }
     </div>
     <Section>
-      <div class="note-content rainbow-links">
+      <div class="note-content rainbow-links e-content">
         <Content />
       </div>
     </Section>
