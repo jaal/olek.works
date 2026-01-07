@@ -2,8 +2,8 @@ name: Scheduled Build
 
 on:
   schedule:
-    # Run daily at 6:00 AM UTC (7:00 AM CET in winter, 8:00 AM CEST in summer)
-    - cron: '0 6 * * *'
+    # Run daily at 7:00 AM UTC (8:00 AM CET in winter, 9:00 AM CEST in summer)
+    - cron: '0 7 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:
