@@ -1,6 +1,6 @@
 ---
 title: "We've Entered the Era of Creators 2.0"
-slug: creators-2-0-ai-lowered-barrier
+slug: creators-2-era
 added: 2026-01-07 06:00
 updated: 2026-01-07 06:00
 tags: [technology, writing, reflection]
