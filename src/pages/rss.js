@@ -4,8 +4,15 @@ import * as marked from 'marked';
 const postImportResult = import.meta.globEager('../notes/**/*.md');
 const posts = Object.values(postImportResult);
 
+// Filter out posts with future dates (for scheduled publishing)
+const now = new Date();
+const publishedPosts = posts.filter((post) => {
+  const postDate = new Date(post.frontmatter.added.replace(/-/g, '/'));
+  return postDate <= now;
+});
+
 const postsWithContent = await Promise.all(
-  posts.map(async (post) => {
+  publishedPosts.map(async (post) => {
     let rawContent = await post.rawContent();
 
     const titleEncoded = encodeURIComponent(`re: ${post.frontmatter.title}`);
