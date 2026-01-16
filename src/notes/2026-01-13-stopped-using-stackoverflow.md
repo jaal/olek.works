@@ -1,8 +1,8 @@
 ---
 title: 'I Stopped Using Stack Overflow. So Did Everyone Else.'
 slug: stopped-using-stackoverflow
-added: 2026-01-17 06:00
-updated: 2026-01-17 06:00
+added: 2026-01-13 06:00
+updated: 2026-01-13 06:00
 tags: [technology, reflection]
 excerpt: I wondered if I was the only one who stopped asking questions. Then I checked the data. I wasn't.
 note: publish
