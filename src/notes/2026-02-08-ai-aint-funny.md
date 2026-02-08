@@ -1,8 +1,8 @@
 ---
 title: 'AI Ain''t Funny: Testing Which AI Tells the Best Jokes'
 slug: ai-aint-funny
-added: 2026-02-09 06:00
-updated: 2026-02-09 06:00
+added: 2026-02-08 06:00
+updated: 2026-02-08 06:00
 tags: [technology, ai, reflection]
 excerpt: I tested Claude, ChatGPT, Gemini, and others to see which AI could create the funniest punchlines. The results were... dad jokes.
 note: publish
