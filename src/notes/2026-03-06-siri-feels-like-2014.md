@@ -1,8 +1,8 @@
 ---
 title: 'Siri Feels Like 2014—And Apple Doesn''t Seem to Care'
 slug: siri-feels-like-2014
-added: 2026-03-07 06:00
-updated: 2026-03-07 06:00
+added: 2026-03-06 06:00
+updated: 2026-03-06 06:00
 tags: [technology, ai, reflection]
 excerpt: Using Claude and Opera Neon daily makes Siri feel like a primitive chatbot from a decade ago. The gap is jarring.
 note: publish
